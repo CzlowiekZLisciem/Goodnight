@@ -3,5 +3,9 @@ class Routine:
         self.items = {}
 
     def add_item(self, item_id, name):
-        self.items
+        self.items[item_id] = {
+            'name': name,
+            'compleated': False
+        }
         
+    
