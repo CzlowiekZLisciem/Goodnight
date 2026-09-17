@@ -5,7 +5,7 @@ class Routine:
     def add_item(self, item_id, name):
         self.items[item_id] = {
             'name': name,
-            'compleated': False
+            'completed': False
         }
         
     
