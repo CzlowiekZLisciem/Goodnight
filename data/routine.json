@@ -1,0 +1,10 @@
+{
+    "medicine": {
+        "name": "Take medicine",
+        "completed": false
+    },
+    "lights": {
+        "name": "Turn off lights",
+        "completed": true
+    }
+}
