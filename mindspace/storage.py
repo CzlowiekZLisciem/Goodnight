@@ -8,3 +8,7 @@ import json
 def save_routine(routine):
     with open('data/routine.json', 'w') as file:
         json.dump(routine.items, file, indent=4)
+
+def load_routine():
+    with open('data/routine.json', 'r') as file:
+        return json.load(file)
